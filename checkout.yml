@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+    
+
+  tasks:
+  - name: checkout from GIT
+    repo: git@github.com:Chytra29/ansible.git
+    dest: /tmp
